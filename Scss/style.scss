@@ -1,0 +1,107 @@
+@import "_nullstyle.scss";
+@import "_header.scss";
+@import "_footer.scss";
+
+body {
+  height: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
+
+.one {
+  background-color: rgb(8, 9, 77);
+  color: antiquewhite;
+  padding: 40px 0;
+  padding-top: 120px;
+
+  &__text {
+    P {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.two {
+  background-color: rgb(4, 68, 15);
+  color: antiquewhite;
+  padding: 40px 0;
+
+  &__text {
+    P {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.three {
+  background-color: rgb(22, 131, 233);
+  color: antiquewhite;
+  padding: 40px 0;
+
+  &__text {
+    P {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+.four {
+  background-color: rgb(61, 3, 53);
+  color: antiquewhite;
+  padding: 40px 0;
+
+  &__text {
+    P {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+
+.five {
+  background-color: rgb(44, 49, 2);
+  color: antiquewhite;
+  padding: 40px 0;
+
+  &__text {
+    P {
+      margin-bottom: 40px;
+    }
+  }
+}
